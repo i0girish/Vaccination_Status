@@ -1,0 +1,105 @@
+* { 
+	box-sizing: border-box;
+}
+
+body{
+    /* background-color: rgb(186, 255, 232); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.27), rgba(0, 0, 0, 0.27)), url('../images/campus.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-heading{
+    font-family: 'Epilogue', sans-serif;
+    color: rgb(2, 78, 139);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#iitm-logo {
+    display: inline-block;
+    height: 100px;
+}
+
+#form-outer{
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255) ;
+    box-shadow: 0px 0px 35px rgb(112, 112, 112);
+}
+
+.form-control, .form-select {
+    border-radius: 12px;
+    /* border-color: #fff; */
+    box-shadow: 0px 0px 15px rgb(241, 241, 241);
+}
+.form-control:active{
+    box-shadow: 0px 0px 15px rgb(223, 223, 223);
+}
+
+.form-label, .col-form-label, .form-check-label, .group-label {
+    font-family: 'Epilogue', sans-serif;
+}
+
+input[type="file"]{
+    color: #5686d3;
+}
+.proof-button {
+    display: inline-block;
+    background-color: #7ceec2;
+    border-radius: 14px;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+    border-style: none;
+    box-shadow: 0px 0px 15px rgb(255, 252, 252);
+}
+.proof-button:hover {
+    background-color: #154072;
+    color: #fff;
+}
+
+#submit-btn{
+    font-family: 'Epilogue', sans-serif;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    background-color: #123c6d;
+    color: #fff;
+    border-radius: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    border-style: none;
+}
+#submit-btn:hover {
+    background-color: #b2ffe1;
+    color: black;
+}
+
+.input-icons i{
+    position: absolute;
+    padding: 5px;
+}
+.in-date{
+    font-family: 'Epilogue', sans-serif;
+    border-color: #fff;
+    border-style: none;
+    box-shadow: 0px 0px 15px rgb(236, 236, 236);
+}
+
+#vac-status, #success-dialog {
+    font-family: 'Epilogue', sans-serif;
+}
+
+.form-check-input{
+    display: block;
+}
+
+embed {
+    width : 90%;
+    height : 500px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}

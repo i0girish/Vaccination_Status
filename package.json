@@ -1,0 +1,35 @@
+{
+  "name": "adp-project",
+  "version": "1.0.0",
+  "description": "This is our private repo for ADP project. Some guidelines 1. Create a developer branch and always create a pull request from that only 2. If two or more people are working on the same files always fetch and merge the upstream 3. Always add meaningful comments and commit messages. 4. Do not create decoy pull requests, means if your present PR is not merged and you make new changes, the present PR will contain your new commits as well so you don't need new PR.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pepinni/ADP-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pepinni/ADP-Project/issues"
+  },
+  "homepage": "https://github.com/Pepinni/ADP-Project#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.0.12",
+    "mongoose-findorcreate": "^3.0.0",
+    "multer": "^1.4.3",
+    "nodemailer": "^6.7.0",
+    "nodemon": "^2.0.14",
+    "passport": "^0.5.0",
+    "passport-local-mongoose": "^6.1.0"
+  },
+  "engines": {
+    "node": "16.5.0"
+  }
+}
