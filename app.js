@@ -1,10 +1,4 @@
-/* 
-------------------------------------------------
-CS207 Applied Databases Practicum
-Project by Group 6 : Campus Returning Scheduler
-Main Code file
-------------------------------------------------
-*/
+
 
 // Require the necessary libraries
 require("dotenv").config();

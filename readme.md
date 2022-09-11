@@ -1,12 +1,4 @@
-## Student Returning Scheduler
-
-### Project by Group 6
-
-##### CS207, Applied Databases Practicum
-##### IIT Mandi, Nov 2021
----------
-
-### Execution Instructions
+Vaccination Status
 ---------
 
 1. Ensure that NodeJS and MongoDB are installed on your system. More OS/system specific information and resources can be obtained from their official websites : 
